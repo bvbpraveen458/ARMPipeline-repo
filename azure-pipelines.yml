@@ -21,7 +21,7 @@ steps:
     resourceGroupName: 'ARMPipeline-rg'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/bvbpraveen458/ARMPipeline-repo/main/create_web_app/azuredeploy.json?token=GHSAT0AAAAAACERM6KXQIHXLV5EJR3RNUPMZF7HI5A'
+    csmFileLink: 'https://raw.githubusercontent.com/bvbpraveen458/ARMPipeline-repo/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName myarmpipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
